@@ -40,3 +40,11 @@ All folder organization, code templates, and even this README structure were cre
 I also asked ChatGPT to review, optimize, and comment on my code when needed.
 
 Without this level of AI assistance, I would have spent much more time and possibly missed out on many best practices in modern Python package development.
+
+## 🚀 Logging Feature
+In this project, the Python logging module has been integrated to monitor the working steps of the Dijkstra algorithm.
+
+The queue status and the progress of the algorithm can be monitored with log messages.
+
+## 🤖 Artificial Intelligence Support
+The package structure, logging integration, test steps and documentation of this project have been planned and implemented with ChatGPT support.
