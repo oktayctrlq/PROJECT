@@ -1,4 +1,9 @@
 import heapq
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
+
 
 def dijkstra(graph, start):
     """
@@ -19,7 +24,8 @@ def dijkstra(graph, start):
     queue = [(0, start)]
 
     while queue:
-        current_distance, current_node = heapq.heappop(queue)
+        logger.debug(f"Queue state: {queue}")
+	current_distance, current_node = heapq.heappop(queue)
         if current_distance > distances[current_node]:
             continue
         for neighbor, weight in graph[current_node].items():
