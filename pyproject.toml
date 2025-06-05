@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sp211_2200674014"
+version = "0.1.0"
+description = "A simple Python package for shortest path analysis (Dijkstra algorithm)"
+authors = [{name = "Oktay Duman", email = "oktayduman2001@hotmail.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+
